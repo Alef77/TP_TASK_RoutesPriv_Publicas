@@ -1,0 +1,284 @@
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.img-inicio{
+
+    width: 32rem;
+    height: 20rem;
+
+    transition: 1s;
+}
+.img-inicio:hover{
+   
+    transform: scale(1.1);
+}
+
+.body-targeta{
+    padding-top: 70px;
+}
+
+.footer{
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.footer{
+    color: azure;
+    padding: 50px;
+}
+
+#navbarScroll{
+    color: azure;
+}
+
+.offcanvas{
+    background-color: black;
+}
+
+.g-4{
+    padding: 20px ;
+}
+
+.userIcon{
+    border-radius: 50px;
+}
+
+#offca{
+    width: 250px;
+}
+
+#cartas{
+    padding: 5px;
+}
+
+#buttons{
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+hr{
+    color: aliceblue;
+}
+
+
+.col-lg-4 img {
+    
+    position:relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+} 
+
+.col-lg-4 p {
+    text-align: left;
+}
+
+.container-testimonios{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+#iconoss{
+    border-radius: 10px;
+    margin: 15px;
+    display:block;
+    
+}
+
+#footer1{
+    margin-top: 30px;
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+
+#footerCol{
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin:25px
+}
+
+/* -------------linea------ */
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+  }
+  h2.linea {
+    position: relative;
+    z-index: 1;
+  }
+  h2.linea:before {
+    border-top: 2px solid rgb(92, 10, 174);
+    content: "  ";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+  h2.linea span {
+  
+    background: #fff;
+    padding: 0 15px;
+  }
+
+  #contactoForm{
+    width:700px;
+    padding: 20px;
+    border:1px solid black
+    
+  }
+
+  
+  .img-principal{
+    
+    width: 100%;
+  }
+
+#footerColPal{
+    background-color: black;
+    padding: auto
+}
+
+
+/* --------------barra Nabv--------------- */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(197, 93%, 47%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(162, 96%, 43%, 0.658), hsla(306, 95%, 23%, 0.664)), url(../img/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ------targetas- inicio joven--------- */
+
+#targetOffer{
+   
+    background-color: white;
+    color:black;
+    border: 2px solid rebeccapurple;
+
+   
+
+   
+    display: flex;
+  
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+  
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.801);
+;
+}
+#targetOffer:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(74, 2, 190, 0.623);
+  transform: translateY(-8px);
+}
+#contCards{
+
+    margin-top: 20px;
+    padding: 20px;
+    
+
+}
+
+.botonTargetas{
+    background-color: #2CF0A9  ;
+}
+.botonTargetasP{
+    background-color: #0AA7E7  ;
+}
+
+  
+  
+#buttonPostulA{
+    display: inline-block;
+}
+
+#buttonPostulAc{
+    margin:10px;
+    margin-left: 33.33%;
+    width: 200px;
+}
+
+#modalBody{
+    padding: 20px;
+}
+
+.contePasantias{
+
+    background: linear-gradient(to right, hsla(98, 96%, 43%, 0.575), hsla(189, 90%, 43%, 0.664));
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.contenedor-Pasantias{
+
+    width: 1110px;
+    height: 368px;
+    margin:  10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%) ;
+ 
+ }
+ 
+ .img-Pasantias{
+     height: 100%;
+     width: auto;
+ }
+ 
+ .contenedor-text{
+     text-align: justify;
+     padding: 40px;
+     font-family: Lato,sans-serif;
+     font-weight: 400;
+     line-height: 1.7em;
+     font-size: 19px;
+ }
+
+ #img-ofertas{
+    width: 100%;
+    max-height: 100%;
+
+ }
